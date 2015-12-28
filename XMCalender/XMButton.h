@@ -1,0 +1,15 @@
+//
+//  XMButton.h
+//  XMCalender
+//
+//  Created by mac on 15/11/13.
+//  Copyright © 2015年 yueDi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface XMButton : UIButton
+- (instancetype)initWithFrame:(CGRect)frame isWeek:(BOOL)isWeek;
+@property (nonatomic, strong) NSDateComponents *btnCompone;
+@property (nonatomic, strong) NSDate *btnDate;
+@end
